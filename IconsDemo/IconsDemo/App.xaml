@@ -3,6 +3,6 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="IconsDemo.App">
     <Application.Resources>
-
+        <x:String x:Key="happy_face">&#xE80C;</x:String>
     </Application.Resources>
 </Application>

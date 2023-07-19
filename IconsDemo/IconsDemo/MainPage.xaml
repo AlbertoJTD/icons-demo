@@ -8,7 +8,7 @@
                FontSize="Header"
                HorizontalOptions="Center"
                VerticalOptions="CenterAndExpand"
-               Text="&#xE80C;"
+               Text="{StaticResource happy_face}"
                TextColor="Navy" />
 
     </StackLayout>
