@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:icons="clr-namespace:IconsDemo.Fonts;assembly=IconsDemo"
              x:Class="IconsDemo.MainPage">
 
     <StackLayout>
@@ -11,6 +12,12 @@
                Text="{StaticResource happy_face}"
                TextColor="Navy" />
 
+        <Label FontFamily="fontello"
+               FontSize="Header"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               Text="{x:Static icons:IconConstants.Flash}"
+               TextColor="Orange" />
     </StackLayout>
 
 </ContentPage>
